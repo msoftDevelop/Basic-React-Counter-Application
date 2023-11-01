@@ -6,21 +6,25 @@ This project demonstrates basic usage of the `useState` hook in React.
 
 - Increment and decrement a value within a range of 1 to 20.
 
-## Usage
+## Getting Started
 
 1. Install dependencies:
+
    ```bash
    npm install
-   Run the project:
 
+2.   Run the project:
+``` bash
 npm start
-Code Explanation
+```
+3.   Usage
+Click the "Add value by 1" button to increase the value (up to a maximum of 20).
+Click the "Remove Value by 1" button to decrease the value (down to a minimum of 1).
+4.   Code Explanation
 The code consists of a single React component App that uses the useState hook to manage a numerical value. It provides buttons to add and remove this value by 1, with limits set between 1 and 20.
-
-Dependencies
+5.   Dependencies
 React
 Node.js
-License
+6.   License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-You can save this content in a file named `README.md` in the root directory of your project. This Markdown file provides a brief overview of your project, how to use it, its features, and any dependencies or licensing information.
